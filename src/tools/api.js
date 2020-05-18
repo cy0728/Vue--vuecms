@@ -1,0 +1,13 @@
+export const LunboURL = "/api/getlunbo"      //GET 图片轮播的url
+export const NewsListURL = "/api/getnewslist"   //GET 新闻列表的url
+export const NewsInfoURL ="/api/getnew/"       //GET :id  新闻详情的url
+export const CommentsURL = "/api/getcomments/"   //GET :id  获取新闻评论的数据
+export const PostCommentURL = "/api/postcomment/"  //POST :id 发表评论接口
+export const ImgCategoryURL = "/api/getimgcategory"  //GET  获取图片分类信息的url
+export const ImagesURL ="/api/getimages/"   //GET  :id  根据分类id获取分类下的图片数据
+export const ImageInfoURL = "/api/getimageInfo/"  //GET :id  根据图片id获取图片详情数据
+export const ThumImageURL = "/api/getthumimages/"  //GET  :id  根据图片id获取缩略图的数据
+export const ProductURL = "/api/getgoods"   //GET  获取商品列表的url
+export const ProductInfoURL = "/api/goods/getinfo/"   //GET  :id  获取商品图片轮播的数据
+export const ProductDetailURL ="/api/goods/getdesc/"   //GET  :id  根据商品id获取商品详情的url
+export const ShopcarListURL ="/api/goods/getshopcarlist/"  //GET  1,2,3  根据购物车id获取商品详情信息
